@@ -1,0 +1,20 @@
+body{
+    background-image: url('./components/header/open-source-high-resolution-logo.webp');
+    background-size: cover ; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;   
+    /* opacity: 0.9; */
+}
+@media  (max-width: 660px) {
+  body{
+    background-image: url('./components/header/open-source-high-resolution-logo.webp');
+    background-size: contain ; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;   
+    /* opacity: 0.9; */
+    
+  }
+  
+} 

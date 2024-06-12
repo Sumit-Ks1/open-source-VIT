@@ -1,0 +1,24 @@
+.first{
+    font-weight: 900;
+}
+.main-header{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.headerlogo{
+    height: 80px ;
+    border-radius: 60%;
+    /* object-fit: cover;
+    object-position: center; */
+}
+.headerlogo2{
+    height: 80px ;
+    
+
+}
+@media  (max-width: 660px) {
+    .headerlogo2{
+        height: 60px
+    }
+}
