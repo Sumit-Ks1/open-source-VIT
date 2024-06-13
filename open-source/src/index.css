@@ -1,20 +1,34 @@
 body{
-    background-image: url('./components/header/open-source-high-resolution-logo.webp');
+    background-image: url('./assets/open-source-high-resolution-logo.webp');
     background-size: cover ; 
     background-position: center; 
     background-repeat: no-repeat; 
-    background-attachment: fixed;   
-    /* opacity: 0.9; */
+    background-attachment: fixed;  
+    
 }
 @media  (max-width: 660px) {
   body{
-    background-image: url('./components/header/open-source-high-resolution-logo.webp');
-    background-size: contain ; 
+    background-image: url('./assets/open-source-high-resolution-logo.webp');
+    background-size: 100% 100%; 
     background-position: center; 
     background-repeat: no-repeat; 
     background-attachment: fixed;   
-    /* opacity: 0.9; */
+    object-fit: fill;
+    object-position: center;
     
   }
   
 } 
+/* @media  (min-width: 1291px) {
+  body{
+    background-image: url('./assets/open-source-high-resolution-logo.webp');
+    background-size: 100% 100%; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;   
+    object-fit: fill;
+    object-position: center;
+    
+  }
+  
+}  */

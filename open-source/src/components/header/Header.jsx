@@ -1,13 +1,21 @@
 import header from './header.module.css'
-import openSource from './open-source-high-resolution-logo.webp'
-import bhopallogo from './bhopallogo.png'
-
+import bhopallogo from '../../assets/bhopallogo.png'
+import Searchbar from './Searchbar.jsx'
+import { Home, Events, Contribute_to_Open_source , Login } from './Features.jsx'
 export default function Header() {
   return (
-    <div className={header.main-header}>
-      <img className={header.headerlogo2} src={bhopallogo} alt=''/>
-      {/* <img className={header.headerlogo} src={openSource} alt="" srcset="" /> */}
+    <div className={header.mainheader}>
+      <div className={header.combinedpart}>
+        <img className={header.headerlogo} src={bhopallogo} alt='' />
+        <Searchbar />
+      </div>
+      <div className={header.combinedpart}>
+        <Home />
+        <Events />
+        <Contribute_to_Open_source />
+        <Login />
+      </div>
     </div>
-    
+
   )
 }

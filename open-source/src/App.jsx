@@ -2,10 +2,9 @@ import Header from "./components/header/Header.jsx"
 
 export default function App() {
   return (
-    <>
+    <div>
       <Header />
-      <img src="./assets/logo.png" alt="" />
-    </>
+    </div>
   )
 
 }

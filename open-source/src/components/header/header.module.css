@@ -1,24 +1,31 @@
-.first{
-    font-weight: 900;
-}
-.main-header{
+.mainheader{
     margin-top: 20px;
     margin-left: 20px;
-    margin-right: 10px;
+    margin-right: 20px;
+    height : 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.combinedpart{
+    display: flex;
+    justify-content: space-between;
+    width: 35%
 }
 .headerlogo{
-    height: 80px ;
-    border-radius: 60%;
-    /* object-fit: cover;
-    object-position: center; */
-}
-.headerlogo2{
     height: 80px ;
     
 
 }
 @media  (max-width: 660px) {
-    .headerlogo2{
+    .headerlogo{
         height: 60px
     }
+    
+}
+@media  (max-width: 425px) {
+    .headerlogo{
+        height: 40px
+    }
+    
 }

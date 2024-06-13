@@ -1,0 +1,18 @@
+#elementcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+
+.iconsimport {
+    color: rgb(42, 0, 254);
+
+}
+
+.featureelement {
+    color: blue;
+    font-family: sans-serif;
+    padding: 4px;
+    margin-top: 5px;
+}
