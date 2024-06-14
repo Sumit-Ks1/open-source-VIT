@@ -1,0 +1,22 @@
+.introcontainer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/neonphoto.webp');
+    opacity: 0.7;
+    background-size: cover ; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.headings1{
+    color: rgb(236, 1, 1);
+    
+}
+.headings2{
+    color: aliceblue;
+
+}
