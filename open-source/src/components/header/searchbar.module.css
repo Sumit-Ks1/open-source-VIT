@@ -1,5 +1,5 @@
 .searchContainer {
-    width: 220px;
+    /* width: 220px; */
     height: 30px;
     background-color: aliceblue;
     margin: 10px;
@@ -12,7 +12,13 @@
     border-radius: 15px;
     align-items: center;
 }
-
+@media (max-width: 500px){
+    .searchContainer{
+        margin-top: 0%;
+        width: fit-content;
+        height: auto;
+    }
+}
 input{
     width: 100%;
     border: none;
@@ -23,6 +29,21 @@ input:focus{
     outline: none;
     
 }
+@media  (max-width: 900px) {
+    input{
+        width: fit-content;
+    }
+}
+/* @media (max-width: 660px){
+    .searchContainer{
+        width: fit-content;
+        margin-top: 6px;
+    }
+    input{
+        width: 140px;
+    }
+} */
+
 #clicksearch {
   color: rgb(129, 22, 40);
   

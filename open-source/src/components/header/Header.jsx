@@ -9,7 +9,7 @@ export default function Header() {
         <img className={header.headerlogo} src={bhopallogo} alt='' />
         <Searchbar />
       </div>
-      <div className={header.combinedpart}>
+      <div className={header.combinedpart} id={header.righthead}>
         <Home />
         <Events />
         <Contribute_to_Open_source />

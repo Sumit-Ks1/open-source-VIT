@@ -1,10 +1,20 @@
-#elementcontainer {
+.elementcontainer {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    
+    height: fit-content;
+    padding: 11px;
+    transition: transform 0.5s;
+    /* background-color: burlywood; */
+   
 }
-
+.elementcontainer:hover{
+    height: fit-content;
+    box-shadow: 3px 4px 6px navajowhite;
+    font-size: large;
+    transform: scale(1.08); 
+    cursor: pointer;
+}
 .iconsimport {
     color: rgb(42, 0, 254);
 
@@ -15,4 +25,12 @@
     font-family: sans-serif;
     padding: 4px;
     margin-top: 5px;
+    height: fit-content;
+}
+@media  (max-width: 900px) {
+    .elementcontainer2 {
+        display: none;
+    }
+    
+
 }

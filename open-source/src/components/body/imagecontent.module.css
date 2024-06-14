@@ -1,0 +1,17 @@
+.imagecontent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-right: 5%;
+    box-shadow: 0px, 0px 10px white;
+    
+}
+.shape{
+    color: rgb(215, 223, 223);
+}   
+@media (max-width: 900px) {
+    .imagecontent{
+        width: 20%
+    }
+}
+
