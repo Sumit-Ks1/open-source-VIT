@@ -1,22 +1,59 @@
-.introcontainer{
+.introcontainer {
     width: 100%;
     height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('../../assets/neonphoto.webp');
-    opacity: 0.7;
-    background-size: cover ; 
-    background-position: center; 
-    background-repeat: no-repeat;
+    /* margin: 30px; */
+    /* padding: 20px; */
     border-radius: 15px;
+    position: relative;
 }
-.headings1{
-    color: rgb(236, 1, 1);
+
+.introcontainer::after {
+    content: '';
+    background-image: url('../../assets/neonphoto.webp');
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+@media (max-width: 768px) {
+    .introcontainer::after {
+        background-size: 100% 100%;
+    }
+    .headings1{
+        font-size: larger;
+    }
+}
+@media (max-width: 480px) {
+    .headings1{
+        font-size: 15px;
+        padding: 3px;
+    }
+}
+
+.headings1 {
+    color: rgb(55, 0, 253);
+    background-color: azure;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 6px;
+    box-shadow: rgb(55, 0, 255) 4px 5px 6px;
+    /* width: fit-content; */
     
 }
-.headings2{
-    color: aliceblue;
 
+.headings2 {
+    color: rgb(255, 255, 255);
+    margin: 29px;
 }
