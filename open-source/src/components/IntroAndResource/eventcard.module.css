@@ -1,0 +1,8 @@
+.cardcontainer{
+    padding: 15px;
+    background-color: rgb(231, 231, 218);
+    border: 2px solid rgb(198, 82, 82);
+    border-color: rgba(168, 28, 147) rgba(28, 159, 168, 0.5) rgba(28, 159, 168, 0.5) rgba(28, 159, 168, 0.5);
+    border-width: 20px;
+    border-radius: 5%;
+}

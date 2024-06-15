@@ -1,9 +1,35 @@
-.eventcontainer{
-
+.eventcontain{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: fit-content;
+    margin: 0px 20px;
+    margin-top: 15px;
+    /* background-color: rgb(255, 228, 196,0.7); */
+    background-image: linear-gradient(54deg, rgba(249, 221, 219, 0.6), rgba(250, 247, 247, 0.1) 28%), linear-gradient(241deg, rgba(179, 68, 138, 0.45), rgba(27, 17, 206, 0.2) 36%);
+    border-radius: 20px;
+    
 }
 .eventheading{
-
+    color: rgba(216, 6, 6, 0.977);
+    width: fit-content;
+    padding: 8px;
+    padding-left: 8px;
+    margin-left: 5%;
+    background-color: rgb(225, 206, 142);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px snow;
 }
 .eventcardcontainer{
-    
+    padding-left: 1%;
+    display: grid;
+    width: 98%;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 48px;
+    grid-row-gap: 32px;
+    /* -ms-grid-columns: 1fr 1fr 1fr; */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* -ms-grid-rows: auto; */
+    grid-template-rows: auto;
 }

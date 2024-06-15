@@ -30,8 +30,8 @@
     color: rgb(250, 249, 249);
     font-size: 18px;
     padding: 8px;
-    box-shadow: 0px,0px,4px,rgb(253, 239, 239);
     background-color: rgb(237, 66, 9);
+    box-shadow: 0px 0px 15px snow;
     height: fit-content;
     border-radius: 10px;
     margin-top: 19px;
@@ -40,10 +40,13 @@
     font-family: sans-serif;
 }
 .buttonc:hover{
-    opacity: 0.8;
+    /* opacity: 0.8; */
     cursor: pointer;
+    box-shadow: 0px 0px 20px snow;
+
 }
 .search{
     padding-right: 8px;
     color: antiquewhite;
+    
 }
