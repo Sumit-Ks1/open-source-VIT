@@ -2,7 +2,57 @@
     padding: 15px;
     background-color: rgb(231, 231, 218);
     border: 2px solid rgb(198, 82, 82);
-    border-color: rgba(168, 28, 147) rgba(28, 159, 168, 0.5) rgba(28, 159, 168, 0.5) rgba(28, 159, 168, 0.5);
-    border-width: 20px;
+    border-color: snow rgb(227, 220, 220) snow rgb(207, 203, 202);
+    box-shadow: 0px 0px 10px rgb(26, 2, 240);
+    border-width: 5px;
     border-radius: 5%;
+    
 }
+.cardstatus{
+    background-color: rgb(0, 228, 61);
+    color: rgb(30, 38, 150);
+    margin: 0%;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    width: fit-content;
+}
+.innerconatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardeventname{
+    color: rgb(5, 4, 4);
+    background-color: rgb(245, 244, 244);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.cardimage{
+    /* background-color: snow; */
+}
+.cardfield{
+    letter-spacing: 0.5px;
+}
+.carddescription{
+    background-color: rgb(194, 188, 220);
+    padding: 10px;
+    border-radius: 10px;
+}
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #f51010, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #b80a0a, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6;
+    }
+  }
+  
+  .cardfield {
+    /* font-size: 80px; */
+    color: #1713e7;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
