@@ -33,3 +33,21 @@
     /* -ms-grid-rows: auto; */
     grid-template-rows: auto;
 }
+@media (max-width: 1032px) {
+    .eventcardcontainer{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        width: 95%;
+        padding-left: 2%;
+    }
+
+}
+@media (max-width: 500px) {
+    .eventcardcontainer{
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto;
+        width: 95%;
+        padding-left: 2%;
+    }
+
+}
