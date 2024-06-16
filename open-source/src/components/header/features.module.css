@@ -21,13 +21,16 @@
 }
 
 .featureelement {
-    color: blue;
+    
+    color: rgb(249, 245, 248);
     font-family: sans-serif;
-    padding: 4px;
-    margin-top: 5px;
+    padding: 7px;
+    /* margin-top: 5px; */
     height: fit-content;
+    font-weight: bolder;
+    letter-spacing: 1px;
 }
-@media  (max-width: 900px) {
+@media  (max-width: 1032px) {
     .elementcontainer2 {
         display: none;
     }

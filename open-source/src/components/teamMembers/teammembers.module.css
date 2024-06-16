@@ -1,0 +1,59 @@
+.mainteamcontainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background-color: #1d1d1d;
+    background-image: radial-gradient(circle farthest-corner at 0% 50%, rgba(255, 1, 1, 0.15), transparent 47%), radial-gradient(circle farthest-corner at 40% 130%, rgba(122, 167, 255, 0.41), transparent 58%);
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px ;
+    padding-top: 35px;
+}
+
+
+.teamcontainer {
+    width: 88%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 20px;
+    column-gap: 30px;
+    padding: 40px;
+
+}
+.lazyloading{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(15, 14, 13);
+    padding: 10px;
+    border-radius: 10%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media (max-width: 1013px) {
+    .teamcontainer {
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+}
+
+@media (max-width: 780px) {
+    .teamcontainer {
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .teamcontainer {
+        grid-template-columns: 1fr;
+
+    }
+}

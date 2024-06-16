@@ -1,7 +1,8 @@
 import card from './eventcard.module.css'
 export default function Eventcard(props) {
+
     return (
-        <div className={card.cardcontainer}>
+        <div className={card.cardcontainer} id={card.cardcontainer2}>
             <h3 className={card.cardstatus}>
                 {props.currentStatus} ....
             </h3>

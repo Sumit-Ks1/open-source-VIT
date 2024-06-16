@@ -6,7 +6,7 @@ import TeamMembers from "./components/teamMembers/TeamMembers.jsx"
 
 export default function App() {
   return (
-    <div>
+    <div style={{width:"100%" ,display: 'flex', flexDirection:"column",justifyContent: "center",alignItems:"center"}}>
       <Header />
       <Mainbody/>
       <Introreso/>

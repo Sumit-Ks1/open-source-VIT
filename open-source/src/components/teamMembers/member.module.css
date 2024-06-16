@@ -1,0 +1,29 @@
+.teamdeatil{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(15, 14, 13);
+    padding: 10px;
+    border-radius: 10%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.profileimage{
+    background-color: thistle;
+    color: black;
+    padding: 9px;
+    border-radius: 50%;
+    
+}
+.namedata{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.postiondata{
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+}
