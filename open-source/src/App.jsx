@@ -2,7 +2,7 @@ import Header from "./components/header/Header.jsx"
 import Mainbody from "./components/body/Mainbody.jsx"
 import Introreso from "./components/IntroAndResource/Introreso.jsx"
 import TeamMembers from "./components/teamMembers/TeamMembers.jsx"
-
+import Footer from "./components/footter/Footer.jsx"
 
 export default function App() {
   return (
@@ -11,6 +11,7 @@ export default function App() {
       <Mainbody/>
       <Introreso/>
       <TeamMembers/>
+      <Footer/>
     </div>
   )
 

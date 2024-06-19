@@ -11,7 +11,7 @@ export default function TeamMembers() {
             <h1 style={{
                 color: "blue",
                 textDecoration: "underline",
-                boxShadow: "0px 0px 15px white",
+                boxShadow: "0px 0px 21px white",
                 textDecorationThickness: "2px",
                 fontSize: "40px",
                 padding: "10px",
