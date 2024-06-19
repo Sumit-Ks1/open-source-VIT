@@ -1,0 +1,26 @@
+.rightcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+.innercontainer{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+.innercontainer h3{
+    color: rgb(92, 80, 65);
+}
+.innercontainer h4{
+    color: rgb(118, 125, 125);
+    margin-bottom: 0%;
+}
+.innercontainer h4:hover{
+    cursor: pointer;
+    color: rgb(118, 125, 125);
+}

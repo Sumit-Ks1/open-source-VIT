@@ -5,7 +5,7 @@
     height: fit-content;
     background-color: #1d1d1d;
     background-image: radial-gradient(circle farthest-corner at 0% 50%, rgba(255, 1, 1, 0.15), transparent 47%), radial-gradient(circle farthest-corner at 40% 130%, rgba(122, 167, 255, 0.41), transparent 58%);
-    border-radius: 25px;
+    border-radius: 25px 25px 0px 0px;
     justify-content: center;
     align-items: center;
     margin-top: 20px ;
