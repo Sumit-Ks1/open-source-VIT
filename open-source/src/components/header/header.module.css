@@ -9,7 +9,7 @@
     background-color: rgba(0, 0, 0, 0.7) ;
     border-radius: 10px;
     box-shadow: 1px,2px,10px, #eded;
-    width: 100vw;
+    width: 100%;
     /* overflow: hidden; */
  
   position: fixed; 
@@ -66,14 +66,14 @@
     .mainheader{
         margin-left: 0%;
         margin-right: 0%;
-        width: 100vw;
+        /* width: 100vw; */
         position: relative;
     }
     #righthead{
         margin-top: 0%;
     }
     .combinedpart{
-        width: 100vw;
+        width: fit-content;
 
     }
 }
