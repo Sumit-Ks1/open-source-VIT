@@ -12,9 +12,12 @@ export default function Footerleft() {
                     </h2>
                 </div>
             </div>
-            <div style={{color: "gray", padding:'10px'}}>
-                Built by Sumit Kumar Singh
+            <div style={{ color: "gray", padding: '10px' }}>
+                <h4>
+                    Built by Sumit Kumar Singh
+                </h4>
             </div>
+
         </div>
     )
 }

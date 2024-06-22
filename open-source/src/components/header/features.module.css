@@ -6,7 +6,7 @@
     padding: 11px;
     transition: transform 0.5s;
     /* background-color: burlywood; */
-   
+   /* width: 100vw; */
 }
 .elementcontainer:hover{
     height: fit-content;
