@@ -18,6 +18,9 @@ body{
   }
   
 } 
+head{
+  width: fit-content;
+}
 /* @media  (min-width: 1291px) {
   body{
     background-image: url('./assets/open-source-high-resolution-logo.webp');
