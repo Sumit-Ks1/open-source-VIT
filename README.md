@@ -1,6 +1,7 @@
 <h1> Hello Everyone ! Welcome to my Demo Website </h1>
 <p> This is an open source contribution demo project which I have made using "React" . This project includes single page static website .</p>
 ![Screenshot 2024-06-23 091310](https://github.com/Sumit-Ks1/open-source-VIT/assets/137806289/ac198ae7-db6c-4309-ae7b-41319f0b042e)
+<br/>
 ![Screenshot 2024-06-23 091333](https://github.com/Sumit-Ks1/open-source-VIT/assets/137806289/94e24ab0-6eeb-41d3-9075-a294aad703dd)
 ![Screenshot 2024-06-23 091346](https://github.com/Sumit-Ks1/open-source-VIT/assets/137806289/31769505-0e9f-4905-98ee-89fdf8d4eb75)
 ![Screenshot 2024-06-23 091407](https://github.com/Sumit-Ks1/open-source-VIT/assets/137806289/522cb3ac-3f92-4b33-abba-1c866f037e52)
