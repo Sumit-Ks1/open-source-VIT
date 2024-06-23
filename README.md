@@ -9,7 +9,7 @@
 ![Screenshot 2024-06-23 091407](https://github.com/Sumit-Ks1/open-source-VIT/assets/137806289/522cb3ac-3f92-4b33-abba-1c866f037e52)
 <br/>
 ![Screenshot 2024-06-23 091255](https://github.com/Sumit-Ks1/open-source-VIT/assets/137806289/0d9f5fd1-6951-476c-9355-0f061d3d09d7)
-
+<br/>
 <p> Starting point of this website is from inex.html</p>
 <p> Then we see main.jsx which is starting point of javasript codes in react disguise</p>
 <p> Further we have started with our components calling - Header , Mainbody , Introreso , TeamMembers and  Footer</p>
