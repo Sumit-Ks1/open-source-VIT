@@ -11,11 +11,11 @@ export default function TeamMembers() {
             <h1 style={{
                 color: "blue",
                 textDecoration: "underline",
-                boxShadow: "0px 0px 21px white",
+                boxShadow: "0px 0px 19px white",
                 textDecorationThickness: "2px",
                 fontSize: "40px",
                 padding: "10px",
-                borderRadius: "14px"
+                borderRadius: "16px"
             }}>
                 Meet our Cohort
             </h1>
