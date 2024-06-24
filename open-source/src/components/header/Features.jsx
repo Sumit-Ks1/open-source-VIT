@@ -4,6 +4,7 @@ import { BsCalendar2EventFill } from "react-icons/bs";
 import { GrAchievement } from "react-icons/gr";
 import { RiLoginBoxFill } from "react-icons/ri";
 
+// Home button
 export function Home() {
   return (
     <div className={`${features.elementcontainer} ${features.elementcontainer2}`}>
@@ -17,6 +18,7 @@ export function Home() {
   )
 }
 
+// Events button
 export function Events() {
   return (
     <div className={`${features.elementcontainer} ${features.elementcontainer2}`}>
@@ -30,6 +32,7 @@ export function Events() {
   )
 }
 
+// contribute to open source 
 export function Contribute_to_Open_source() {
   return (
     <div className={`${features.elementcontainer} ${features.elementcontainer2}`}>
@@ -42,6 +45,8 @@ export function Contribute_to_Open_source() {
     </div>
   )
 }
+
+// Login button 
 export function Login() {
   return (
     <div className={features.elementcontainer} id={features.loginpart}>
