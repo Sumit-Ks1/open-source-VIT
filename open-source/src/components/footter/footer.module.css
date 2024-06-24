@@ -10,11 +10,6 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.leftfooter{
-    
-}
-.rightfooter{
-}
 @media(max-width:630px){
     .footercontainer{
         flex-direction: column;
