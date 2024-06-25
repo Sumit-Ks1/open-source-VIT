@@ -15,7 +15,7 @@
 @media (max-width: 500px){
     .searchContainer{
         margin-top: 10px;
-        width: fit-content;
+        width: -webkit-fill-available;
         height: auto;
     }
 }
@@ -31,7 +31,7 @@ input:focus{
 }
 @media  (max-width: 900px) {
     input{
-        width: fit-content;
+        width: -webkit-fill-available;
     }
 }
 /* @media (max-width: 660px){

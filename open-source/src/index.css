@@ -4,6 +4,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  box-sizing: border-box;
 }
 
 @media (max-width: 660px) {
@@ -15,7 +16,7 @@ body {
     background-attachment: fixed;
     object-fit: fill;
     object-position: center;
-    width: fit-content;
+    /* width: fit-content; */
   }
 
 }

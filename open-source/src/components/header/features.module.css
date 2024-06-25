@@ -37,3 +37,8 @@
     
 
 }
+@media(max-width: 500px) {
+    .elementcontainer{
+        width: 20vw;
+    }
+}
