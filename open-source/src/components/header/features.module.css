@@ -4,6 +4,7 @@
     flex-wrap: nowrap;
     height: fit-content;
     padding: 11px;
+    
     transition: transform 0.5s;
     /* background-color: burlywood; */
    /* width: 100vw; */
@@ -39,6 +40,13 @@
 }
 @media(max-width: 500px) {
     .elementcontainer{
+        /* width: 20vw; */
+        padding-right: 0%;
+    }
+}
+@media(max-width: 345px) {
+    .elementcontainer{
         width: 20vw;
+        padding-right: 0%;
     }
 }
