@@ -1,4 +1,7 @@
 <h1> Hello Everyone ! Welcome to my Demo Website </h1>
+<h2>npm install</h2>
+<hr/>
+<h2>npm i react-icons</h2>
 <p> This is an open source contribution demo project which I have made using "React" . This project includes single page static website .</p>
 ![Screenshot 2024-06-23 091310](https://github.com/Sumit-Ks1/open-source-VIT/assets/137806289/ac198ae7-db6c-4309-ae7b-41319f0b042e)
 <br/>
