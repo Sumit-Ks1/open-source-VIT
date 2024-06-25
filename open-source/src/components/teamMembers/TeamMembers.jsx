@@ -4,7 +4,7 @@ import team from './teammembers.module.css';
 import Member from './Member.jsx';
 // const Member = React.lazy(() => import('./Member.jsx'));
 import { IoPersonSharp } from "react-icons/io5";
-
+// commented part of the code , I have tried to replace loading with lazy loading.
 export default function TeamMembers() {
     return (
         <div className={team.mainteamcontainer}>
@@ -37,7 +37,7 @@ export default function TeamMembers() {
                     <div className={team.lazyloading}><h2>Loading...</h2></div>
                 </div>
             }> */}
-            // In Above commented part of the code , I have tried to replace loading with lazy loading.
+            
             <div className={team.teamcontainer}>
                 <Member profile={<IoPersonSharp size="4em" />} name="Harsh Shukla" position="Co-Founder" />
                 <Member profile={<IoPersonSharp size="4em" />} name="Jaiditya Batra" position="Web development Core Team Member" />
