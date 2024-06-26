@@ -15,8 +15,8 @@ Built with React: This website is built using React, a popular JavaScript librar
 
 <h2> We believe in the power of open source and welcome contributions! Feel free to fork this repository and submit pull requests to improve the website's functionality and content.</h2>
 
-<h1>![LetsGetStartedSaturdayNightLiveGIF](https://github.com/Sumit-Ks1/open-source-VIT/assets/137806289/9e90069f-2f42-42d1-af9c-74f9f77c6f09)
-Getting Started:</h1>
+<h1>
+Getting Started: 👀</h1>
 
 <h3> Fork this repository.
 Clone the forked repository to your local machine.
