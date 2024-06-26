@@ -2,7 +2,7 @@
 
 <h2> This is an open-source React website designed to be a central hub for everything related to contributing to open source projects. It empowers developers of all skill levels to explore and participate in the exciting world of open source!
 </h2>
-<h1>Key Features:
+<h1>✨Key Features:
 </h1> 
 <h3> Discover Events: Find upcoming meetups, workshops, and conferences focused on open source contribution.</h3> 
 <h4>Learn How to Contribute: Explore resources and guides to equip yourself with the skills and knowledge needed to contribute effectively.
